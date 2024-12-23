@@ -31,3 +31,11 @@ body{
     outline: none;
     
 }
+body #btn{
+    color: black;
+    background-color: bisque;
+    height: 48px;
+    border-radius: 10px;
+    margin: 50px;
+    width: 256px;
+}
