@@ -1,3 +1,33 @@
 *{
-    background-color: aquamarine;
+    background-color: black;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    /* height: 500px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 944px;
+    width: 944px;
+    /* gap: 10px; */
+    outline: none;
+    padding: 0;
+    margin: 0;
+
+}
+.container div {
+    height: 57px;
+    width: 57px;
+    padding: 0;
+    margin: 0;
+    border-color: beige;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
 }
